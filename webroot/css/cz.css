@@ -1,0 +1,49 @@
+/* CZ Translations Only
+----------------------------------------------------- */
+
+.mod.divide {
+	display: block;
+}
+
+.actions {
+	display: none;
+}
+
+/* Media Queries
+----------------------------------------------------- */
+@media only screen and (max-width: 460px)  {
+	
+	#projects td {
+    min-height: 43px;
+    box-sizing: border-box;
+		line-height: 42px;
+		padding: 5px 0 5px 110px;    		
+	}
+	
+	#projects td:before {
+		min-height: 42px;
+		box-sizing: border-box;
+		padding:5px 10px;
+		line-height: 42px;
+		width: 90px;
+	}
+	
+	/* Label the data */
+	#projects td:nth-of-type(1):before { content: "分组"; }
+	#projects td:nth-of-type(2):before { content: "类型"; }
+	#projects td:nth-of-type(3):before { content: "已提交"; }
+	#projects td:nth-of-type(4):before { content: "待审核"; }
+	#projects td:nth-of-type(5):before { content: "暂缓"; }
+	#projects td:nth-of-type(6):before { content: "已审核"; }
+	#projects td:nth-of-type(7):before { content: "图片队列"; }
+	#projects td:nth-of-type(8):before { content: "审核"; }
+	#projects td:nth-of-type(9):before { content: "Longest Wait"; }
+	
+	
+	.desktop {
+		display: none !important;
+	}
+	.total {
+    margin-top: -30px;
+	}	
+}
